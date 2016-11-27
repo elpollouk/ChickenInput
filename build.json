@@ -1,0 +1,14 @@
+{
+    "title": "ChickenInput",
+    "version": "0.1.0-dev",
+    "output": "../elpollouk.github.io/libs/ChickenInput.js",
+    "minify": {
+        "type": "uglifyjs",
+        "options": ["-c", "-m", "--mangle-props", "--mangle-regex=\"/^_/\""]
+    },
+    "input": [
+        {
+            "path": "js/pointer.js"
+        }
+    ]
+}
